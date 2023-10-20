@@ -1,0 +1,26 @@
+.bi-list::before {
+  content: "\f479";
+  font-size: 2rem;
+  padding-right: 18px;
+}
+
+
+/* SIDEBAR */
+.sidebar{
+  width: 280px;
+  transition: all 0.3s;
+}
+
+.small-sidebar{
+  width: 77px;
+  transition: all 0.5s;
+}
+
+.small-sidebar .sidebar-text{
+  display: none;
+}
+
+.small-sidebar #menuId{
+  margin-left: -6px;
+}
+
